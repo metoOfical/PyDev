@@ -42,3 +42,7 @@ class ScriptComponent:
 class Rotator(ScriptComponent):
     def update(self):
         self.entity.rotation_y += 100 * time.dt
+        def update():
+    for script in active_scripts:
+        script.update()
+
