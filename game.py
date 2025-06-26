@@ -26,3 +26,19 @@ def main():
 
 if __name__ == "__main__":
     main()
+from ursina import *
+
+class ScriptComponent:
+    def __init__(self, entity):
+        self.entity = entity
+
+    def start(self):
+        pass  # wywołaj na starcie, raz
+
+    def update(self):
+        pass  # wywołuj co klatkę
+
+# Przykładowy skrypt - rotator
+class Rotator(ScriptComponent):
+    def update(self):
+        self.entity.rotation_y += 100 * time.dt
