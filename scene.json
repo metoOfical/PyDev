@@ -1,0 +1,16 @@
+[
+    {
+        "model": "cube",
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1],
+        "color": [1, 0, 0]
+    },
+    {
+        "model": "cube",
+        "position": [2, 0, 0],
+        "rotation": [0, 45, 0],
+        "scale": [1, 2, 1],
+        "color": [0, 1, 0]
+    }
+]
